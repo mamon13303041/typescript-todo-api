@@ -20,5 +20,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </p>
   </div>
 `
+// trigger frontend CI
+
 
 setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
