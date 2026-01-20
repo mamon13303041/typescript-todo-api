@@ -1,0 +1,16 @@
+{
+  "name": "typescript-todo-api-backend",
+  "private": true,
+  "type": "commonjs",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "ts-node-dev": "^2.0.0",
+    "@types/node": "^20.10.0"
+  }
+}
